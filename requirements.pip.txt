@@ -1,0 +1,56 @@
+# NOTE: This file is intended for pip installation on existing Python.
+# The "python>=3.9" marker in requirements.txt is a human prerequisite, not a pip package.
+
+# PDF processing
+pymupdf>=1.23.0
+pdfplumber>=0.10.0
+
+# Video and audio processing
+yt-dlp>=2023.10.13
+openai-whisper>=20231106
+
+# Web scraping
+newspaper3k>=0.2.8
+
+# Knowledge graph
+networkx>=3.0
+python-louvain>=0.16
+
+# API framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# HTTP client
+httpx>=0.25.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Natural Language Processing
+nltk>=3.8.0
+spacy>=3.6.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0.tar.gz
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Code quality
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.2.0
+
+# Utilities
+tqdm>=4.65.0
+loguru>=0.7.0
+python-magic>=0.4.27
