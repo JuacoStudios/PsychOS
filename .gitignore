@@ -102,3 +102,4 @@ _site/
 # Audio/video processing temp files
 *.temp.*
 *.tmp.*
+.vercel
