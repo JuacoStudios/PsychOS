@@ -1,8 +1,32 @@
-*.py
-*.pyc
+# Entornos locales (no subir a Vercel)
+.venv/
+venv/
+env/
+ENV/
+
+# Caché de Python
 __pycache__/
-requirements.txt
-pyproject.toml
-Pipfile
-uv.lock
-.python-version
+*.py[cod]
+*$py.class
+
+# Datos pesados locales (ajusta si necesitas alguno en producción)
+data/sources/
+data/processed/
+data/graph/
+
+# Git e IDE
+.git/
+.vscode/
+.idea/
+
+# Tests y cobertura (opcional: reduce el bundle)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos grandes del proyecto (modelos, media)
+*.pt
+*.bin
+*.mp4
+*.mp3
+*.wav
